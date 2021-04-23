@@ -15,6 +15,5 @@
 ### Output Screenshots
 
 ![View Contact](../master/public/output/view-contact.png)
-![Chat History](../master/public/output/chat2.png)
 ![Mobile Dashboard](../master/public/output/dashboard-mobile.png)
 ![View Contact Mobile](../master/public/output/viewcontact-mobile.png)
