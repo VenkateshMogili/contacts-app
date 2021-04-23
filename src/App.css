@@ -1,0 +1,34 @@
+/* Common/Frequently Used Styles */
+html,
+body,
+*,
+button:focus,
+input:focus {
+	outline: none;
+}
+.p5 {
+	padding: 5px;
+}
+.m5 {
+	margin: 5px;
+}
+.p10 {
+	padding: 10px;
+}
+.m10 {
+	margin: 10px;
+}
+.sendicon:focus,
+.emojiIcon,
+.action,
+.add-contact,
+.sortDropdown,
+.dropdown-item:hover {
+	cursor: pointer;
+}
+.add-contact,
+.chat-users,
+.mymessage .message-text,
+.sendicon {
+	background: linear-gradient(to right, rgba(214, 104, 13, 0.849), rgb(255, 0, 140));
+}

@@ -1,0 +1,25 @@
+.nameImage {
+	font-size: 16px;
+	background: linear-gradient(to bottom right, rgba(214, 104, 13, 0.849), rgb(255, 0, 140));
+	box-shadow: 1px 2px 3px gray;
+	opacity: 0.8;
+	width: 45px;
+	height: 45px;
+	line-height: 30px;
+}
+.nameImageBig {
+	font-size: 30px;
+	width: 100px;
+	height: 100px;
+	line-height: 90px;
+}
+thead {
+	color: gray;
+}
+.bg-lightgray,
+thead {
+	background: whitesmoke;
+}
+.text-lightgray {
+	color: gray;
+}

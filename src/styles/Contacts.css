@@ -1,0 +1,46 @@
+.idcard {
+	background: linear-gradient(rgba(214, 104, 13, 0.849), rgb(255, 0, 140));
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transform: rotateY(180deg);
+	font-size: 30px;
+}
+.tagline {
+	font-size: 12px;
+}
+.sortDropdown {
+	color: #6d6b6b;
+}
+.search-contacts {
+	border-radius: 100px;
+	padding: 5px 5px 5px 10px;
+	background: lightgray;
+	box-shadow: 1px 1px 1px lightgray;
+}
+.searchContact {
+	position: relative;
+	right: 30px;
+	top: 10px;
+	color: #6d6b6b;
+}
+.add-contact {
+	border-radius: 5px;
+	box-shadow: 0px 1px 5px grey;
+	opacity: 0.8;
+}
+/* mobile */
+@media (max-width: 460px) {
+	.tagline {
+		font-size: 10px !important;
+	}
+	.heading {
+		font-size: 20px !important;
+	}
+	.sortBy,
+	.sortDropdown {
+		font-size: 12px !important;
+	}
+	.nocontacts {
+		text-align: center;
+	}
+}
